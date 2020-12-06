@@ -4,6 +4,8 @@ import createSchema from 'part:@sanity/base/schema-creator'
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 import header from './header.js'
+import about from '.about.js'
+import buketter from './buketter.js'
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
 	// We name our schema
@@ -13,5 +15,10 @@ export default createSchema({
 	types: schemaTypes.concat([
 		/* Your types here! */
 		header,
+		about,
+		buketter,
+		begravninng,
+		footer,
+		brollop,
 	]),
 })
