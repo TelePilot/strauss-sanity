@@ -15,6 +15,7 @@ export default createSchema({
 	types: schemaTypes.concat([
 		/* Your types here! */
 		header,
+		hemsida,
 		about,
 		buketter,
 		begravninng,
