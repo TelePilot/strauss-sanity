@@ -19,7 +19,7 @@ export default {
 			title: 'Company openhours',
 			name: 'companyOpenhours',
 			type: 'array',
-			of: [{ type: 'companyOpenhours' }],
+			of: [{ type: 'companyOpenHours' }],
 		},
 		{
 			title: 'Menu',

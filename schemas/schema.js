@@ -10,6 +10,10 @@ import begravning from './begravning.js'
 import footer from './footer.js'
 import hemsida from './hemsida.js'
 import brollop from './brollop.js'
+import socialMedia from './socialMedia.js'
+import companyLocation from './companyLocation.js'
+import companyOpenHours from './companyOpenHours.js'
+import menuItem from './menuItem.js'
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
 	// We name our schema
@@ -25,5 +29,9 @@ export default createSchema({
 		footer,
 		hemsida,
 		brollop,
+		socialMedia,
+		companyLocation,
+		companyOpenHours,
+		menuItem,
 	]),
 })
